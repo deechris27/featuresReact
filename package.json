@@ -1,0 +1,31 @@
+{
+  "name": "features",
+  "version": "1.0.0",
+  "description": "all features",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --hot --port 4000",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Deepak <dd43030@gmail.com> (http://tidbit.c.la/)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-react": "7.9.4",
+    "@babel/runtime": "7.9.2",
+    "axios": "0.19.2",
+    "babel-loader": "8.1.0",
+    "css-loader": "3.4.2",
+    "html-webpack-plugin": "4.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "7.2.0",
+    "redux": "4.0.5",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  }
+}
