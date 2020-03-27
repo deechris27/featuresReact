@@ -1,3 +1,4 @@
 {
-    "presets": ["@babel/preset-react", "@babel/preset-env"]
+    "presets": [["@babel/preset-react",{"useBuiltIns":"entry"}], "@babel/preset-env"],
+    "plugins": [["@babel/plugin-transform-runtime",{"regenerator": true}]]
 }
