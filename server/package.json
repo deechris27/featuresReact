@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "file upload",
+  "main": "server.js",
+  "scripts": {
+    "start:server": "node server",
+    "start:client": "cd.. && npm start",
+    "start-all": "concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "author": "Deepak <dd43030@gmail.com> (http://tidbit.c.la/)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "7.9.0",
+    "@babel/polyfill": "7.8.7",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-fileupload": "1.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "*"
+  }
+}
