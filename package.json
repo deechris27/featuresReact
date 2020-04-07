@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --hot --port 4000",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "npm run build && aws s3 cp dist/ s3://mytidbit --recursive"
   },
   "keywords": [],
   "author": "Deepak <dd43030@gmail.com> (http://tidbit.c.la/)",
